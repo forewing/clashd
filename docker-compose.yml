@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  server:
+    image: forewing/clashd
+    # ports:
+      # - 1234:1234
+    # volumes:
+      # - /PATH/TO/CONF:/conf
+    restart: unless-stopped
